@@ -939,3 +939,7 @@ footer i {
 .modal-title{
   font-weight: 1000;
 }
+
+.progress-completed{
+  color:black !important;
+}
