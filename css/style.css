@@ -12,7 +12,7 @@ a {
 
 a:hover,
 a:focus {
-    color: white;
+    color: #00bfff;
 }
 
 hr {
@@ -279,6 +279,10 @@ header.masthead span {
 
 #contactModal .modal-body{
   color:black;
+}
+
+#contactModal span{
+    font-size: 1em;
 }
 
 #education h2,
@@ -943,4 +947,9 @@ footer i {
 
 .progress-completed{
   color:black !important;
+}
+
+#downloadDiv{
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
 }
