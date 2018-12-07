@@ -901,6 +901,7 @@ footer i {
   right: 0px;
   font-weight: 800;
   padding: 3px 10px 2px;
+  color: black !important;
 }
 
 .project{
