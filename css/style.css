@@ -5,14 +5,10 @@ body {
 }
 
 .parallax {
-  /* The image used */
-  background-image: url("img/blue_chip.png");
+  background-image: url("../img/blue_chip.png") !important;
 
-  /* Set a specific height */
- /* Full height */
-  height: 500px; 
+  height: 400px; 
 
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
