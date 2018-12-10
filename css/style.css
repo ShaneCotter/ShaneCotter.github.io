@@ -15,6 +15,12 @@ body {
   background-size: cover;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+.parallax {
+background-attachment: scroll !important;
+}
+}
+
 h1 {
     font-weight: 600;
 }
