@@ -39,14 +39,22 @@
                         <a class="nav-link" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-toggle="modal" data-target="#contactModal">Contact</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#donwloadCV">Donwload CV</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="references.html">References</a>
+                    </li>
                 </ul>
+                <div class="d-flex justify-content-center h-100">
+                    <div class="searchbar">
+                        <input class="search_input" type="search" required="" class="searchField" placeholder="Search...">
+                        <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
             </div>
-        </div>
     </nav>
     <header class="masthead text-center">
         <div class="container">
@@ -62,52 +70,32 @@
                             </div>
                             <h1>Shane Cotter</h1>
                             <p>Developer | Web Designer | Data-Analyst</p>
-                            <a href="http://www.linkedin.com/in/ShaneCotter" target="_blank"><i class="fab fa-linkedin"></i></a> <a href="http://www.github.com/ShaneCotter" target="_blank"><i class="fab fa-github"></i></a> <a href="#"><i class="fas fa-phone" data-toggle="modal" data-target="#contactModal"></i></a>
-                            <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h3 class="modal-title" id="contactModal">Contact Me</h3>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <h5>The best way to contact me is by <span class="blue-text">email</span> or <span class="blue-text">linkedin</span></h5>
-                                            <h5>I always reply to emails quickly on weeekdays !</h5>
-                                            <br> </br>
-                                            <h4 class="blue-text">Email: shanecotter2472@gmail.com</h4>
-                                            <h4 class="blue-text">LinkedIn:<a href="http://www.linkedin.com/in/ShaneCotter" target="_blank"><i class="fab fa-linkedin"></i></a></h4>
-                                        </div>
-                                        <div class="modal-footer">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <a href="http://www.linkedin.com/in/ShaneCotter" target="_blank"><i class="fab fa-linkedin"></i></a> <a href="http://www.github.com/ShaneCotter" target="_blank"><i class="fab fa-github"></i></a> <a href="#contact"><i class="fas fa-phone"></i></a>
                         </div>
                     </div>
                 </div>
+            </div>
     </header>
     <section class="text-center" id="education">
         <div class="container card">
-            <h1 class="section-heading">Education</h1>
+            <h1 class="section-heading blue-text">Education</h1>
             <div class="row">
                 <div class="col-md-5">
                     <div class="well">
                         <h2>IT Tallaght</h2>
-                        <div class="hi-icon-wrap hi-icon-effect">
-                            <i class="fa fa-laptop"></i>
+                        <div>
+                            <img src="img/itt_logo.jpeg">
                             <h5>Bachelor of Science(Honours) in Computing</h5>
-                            <h5>2015 - 2019</h5>
+                            <h5 class="blue-text">2015 - 2019</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-2">
                 </div>
                 <div class="col-md-5">
-                    <div class="text-center">
+                    <div class="text-left">
                         <div id="grades">
-                            <h2>Grades</h2>
+                            <h2 class="pull-left">Grades</h2>
                             <table class="table table-hover">
                                 <thead>
                                     <tr>
@@ -118,7 +106,7 @@
                                 <tbody>
                                     <tr>
                                         <td>4</td>
-                                        <td>3.5+ Expected</td>
+                                        <td>4.0</td>
                                     </tr>
                                     <tr>
                                         <td>3</td>
@@ -141,11 +129,11 @@
             <div class="row">
                 <div class="col-md-12 mx-auto">
                     <p>
-                        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <a class="btn btn-primary" data-toggle="collapse" href="#collapseGrades" role="button" aria-expanded="false" aria-controls="collapseGrades">
                             Show module grades by year
                           </a>
                     </p>
-                    <div class="collapse" id="collapseExample">
+                    <div class="collapse" id="collapseGrades">
                         <div>
                             <div class="nav nav-tabs">
                                 <a data-toggle="tab" href="#home"><button class="btn btn-primary active">Year 4</button></a>
@@ -325,23 +313,23 @@
                                         <tbody>
                                             <tr>
                                                 <td>IMD</td>
-                                                <td>In progress</td>
+                                                <td>A</td>
                                             </tr>
                                             <tr>
                                                 <td>EAD</td>
-                                                <td>In progress</td>
+                                                <td>A</td>
                                             </tr>
                                             <tr>
                                                 <td>EPA</td>
-                                                <td>In progress</td>
+                                                <td>A</td>
                                             </tr>
                                             <tr>
                                                 <td>Machine Learning</td>
-                                                <td>In progress</td>
+                                                <td>A</td>
                                             </tr>
                                             <tr>
                                                 <td>Information Management</td>
-                                                <td>In progress</td>
+                                                <td>A</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -355,14 +343,14 @@
     </section>
     <section class=" text-center" id="projects">
         <div class="container card">
-            <h1>Projects</h1>
+            <h1 class="section-heading blue-text">Projects</h1>
             <div class="row">
                 <div class="col-md-4 mx-auto project">
                     <h3 class="blue-text"> Final Year Project </h3>
                     <br>
                     <h5>Parking Application</h5>
                     <h5>Ionic Framework & AWS Backend</h5>
-                    <img src="img/parking.png">
+                    <a href ="" data-toggle="modal" data-target="#finalYearModal"><img src="img/parking.png"></a>
                     <br>
                     <br>
                     <button class="btn btn-primary" data-toggle="modal" data-target="#finalYearModal">More info</button>
@@ -394,7 +382,7 @@
                     <br>
                     <h5>TC Events - Web Application</h5>
                     <h5>Java Play! Framework</h5>
-                    <img src="img/tc_events_ticket.jpg">
+                    <a href ="" data-toggle="modal" data-target="#thirdYearModal"><img src="img/tc_events_ticket.jpg"></a>
                     <br>
                     <br>
                     <button class="btn btn-primary" data-toggle="modal" data-target="#thirdYearModal">More info</button>
@@ -454,7 +442,7 @@
                                     <br>
                                     <h5>Sourced Soles - Web Application</h5>
                                     <h5>Java Play! Framework</h5>
-                                    <img src="img/sourced_soles1.png">
+                                    <a href ="" data-toggle="modal" data-target="#secondYearModal"><img src="img/sourced_soles1.png"></a>
                                     <br>
                                     <br>
                                     <button class="btn btn-primary" data-toggle="modal" data-target="#secondYearModal">More info</button>
@@ -500,7 +488,7 @@
                                                     <div class="timeline-badge"><i class="fa fa-suitcase"></i></div>
                                                     <div class="timeline-panel">
                                                         <div class="timeline-heading">
-                                                            <img src="img/baml.png">
+                                                            <a href="http://www.bofaml.com/" target="_blank"><img src="img/baml.png"></a>
                                                             <p>Software Development Intern</p>
                                                             <span class="company">Feburary 2018 - August 2018</span>
                                                         </div>
@@ -513,12 +501,12 @@
                                                     <div class="timeline-badge"><i class="fa fa-suitcase"></i></div>
                                                     <div class="timeline-panel">
                                                         <div class="timeline-heading">
-                                                            <img src="img/advance.png">
+                                                            <a href="http://advancesystems.ie" target="_blank"><img src="img/advance.png"></a>
                                                             <p>Senior Support Analyst</p>
                                                             <span class="company">May 2017 - September 2017</span>
                                                         </div>
                                                         <div class="timeline-body">
-                                                            <p> During my second time work with this company I was given more responsibilty and a more senior role.Worked as part of the Support team supporting the Company’s payroll and HR application. This involved working directly with individuals from IT and HR in various companies.</p>
+                                                            <p> During my second time working with this company I was given more responsibilty and a more senior role.Worked as part of the Support team supporting the Company’s payroll and HR application. This involved working directly with individuals from IT and HR in various companies.</p>
                                                         </div>
                                                     </div>
                                                 </li>
@@ -526,7 +514,7 @@
                                                     <div class="timeline-badge"><i class="fa fa-suitcase"></i></div>
                                                     <div class="timeline-panel">
                                                         <div class="timeline-heading">
-                                                            <img src="img/paddy.png">
+                                                            <a href="https://www.workwithpaddy.com/" target="_blank"><img src="img/paddy.png"></a>
                                                             <p>Dial-a-bet & Customer Service representative</p>
                                                             <span class="company">October 2016 - May 2017</span>
                                                         </div>
@@ -539,7 +527,7 @@
                                                     <div class="timeline-badge"><i class="fa fa-suitcase"></i></div>
                                                     <div class="timeline-panel">
                                                         <div class="timeline-heading">
-                                                            <img src="img/advance.png">
+                                                            <a href="http://advancesystems.ie" target="_blank"><img src="img/advance.png"></a>
                                                             <p>Support Analyst</p>
                                                             <span class="company">May 2016 - September 2016</span>
                                                         </div>
@@ -601,7 +589,7 @@
             <div id="otherSkills">
                 <h2>Other Skills</h2>
                 <div class="progress">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
                     <h3 class="progress-type">Web Design</h3>
                     <h3 class="progress-completed">90%</h3>
                 </div>
@@ -611,8 +599,8 @@
                     <h3 class="progress-completed">85%</h3>
                 </div>
                 <div class="progress">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
-                    <h3 class="progress-type">UML Diagramming</h3>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                    <h3 class="progress-type">UML Diagrams</h3>
                     <h3 class="progress-completed">80%</h3>
                 </div>
                 <div class="progress">
@@ -621,7 +609,7 @@
                     <h3 class="progress-completed">75%</h3>
                 </div>
                 <div class="progress">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 95%"></div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 95%"></div>
                     <h3 class="progress-type">Problem Solving</h3>
                     <h3 class="progress-completed">95%</h3>
                 </div>
@@ -633,31 +621,57 @@
             <div class="row">
                 <div class="col-md-12">
                     <div id="downloadDiv">
-                    <h1 class="blue-text">Download my CV</h1>
-                    <p class="text-muted">In My CV you will find all information found here along with more information and extra detail.</p>
-                    <p class =text-muted>If you have any questions please do not hesitate to <a href="#" data-toggle="modal" data-target="#contactModal">contact me</a></p>
-                    <a href="#"><button type="submit" class="btn-lg btn-primary" onclick="window.open('ShaneCotterCV_2018.docx')"><i class="fa fa-download"></i>   Download my CV</button></a>
-                </div>
+                        <h1 class="blue-text">Download my CV</h1>
+                        <p class="text-muted">In My CV you will find all information found here along with more information and extra detail.</p>
+                        <p class=text-muted>If you have any questions please do not hesitate to <a href="#contact">contact me</a></p>
+                        <a href="#"><button type="submit" class="btn-lg btn-primary" onclick="window.open('ShaneCotterCV_2018.docx')"><i class="fa fa-download"></i>   Download my CV</button></a>
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
+    <section class="text-center" id="contact">
+        <div class="container-fluid card">
+            <h1 class="contact-title blue-text">Contact me</h1>
+            <br>
+            <div class="row">
+                <div class="col-md-12 ">
+                    <form method="post">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" name="btnSubmit" class="btn btn-primary btnContact" value="Send Message" onclick="alert('Thank you for getting in touch !')" />
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
     </section>
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-12 mx-auto pull-left">
-                    <p>&copy; Designed by Shane Cotter 2018
-                    </p>
+                    <h3>&copy; Designed by Shane Cotter 2018 <a href="http://www.github.com/ShaneCotter" target="_blank"><i class="fab fa-github"></i></a>  <a href="http://www.linkedin.com/in/ShaneCotter" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </h3>
                 </div>
             </div>
         </div>
     </footer>
-    <script>
-    $(".nav-tabs .btn-primary").on("click", function() {
-        $(".nav-tabs").find(".active").removeClass("active");
-        $(this).addClass("active");
-    });
-    </script>
 </body>
 
 </html>
