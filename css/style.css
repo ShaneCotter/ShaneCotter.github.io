@@ -4,6 +4,21 @@ body {
     width: 100%;
 }
 
+.parallax {
+  /* The image used */
+  background-image: url("img/blue_chip.png");
+
+  /* Set a specific height */
+ /* Full height */
+  height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 h1 {
     font-weight: 600;
 }
@@ -258,13 +273,6 @@ header.masthead i:hover{
     max-height: 100% max-width: 100%;
 }
 
-#contactModal .modal-body {
-    color: black;
-}
-
-#contactModal span {
-    font-size: 1em;
-}
 
 #education h2,
 #experience h1 {
@@ -813,6 +821,7 @@ footer {
     background-color: #007bff;
     color: white;
     padding-top: 1em;
+    height: 5em;
 }
 
 footer i {
@@ -983,4 +992,21 @@ footer i {
 #contact {
     padding-left: 4em;
     padding-right: 4em;
+}
+
+#contact iframe{
+    max-width: 100%;
+}
+
+#contact form{
+    width : 500px;
+    max-width: 100%;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.interest{
+    padding-top: 2em;
 }
